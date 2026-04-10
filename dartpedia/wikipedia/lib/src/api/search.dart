@@ -10,7 +10,7 @@ Future<SearchResults> search(String searchTerm) async {
   try {
     final Uri url = Uri.https(
       'en.wikipedia.org',
-      '/w/api/php',
+      '/w/api.php',
       <String, Object?>{
         'action': 'opensearch',
         'format': 'json',

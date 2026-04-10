@@ -1,7 +1,3 @@
-int calculate() {
-  return 6 * 7;
-}
-
-void version(String v) {
-  print(v);
-}
+export 'src/commands/get_article.dart';
+export 'src/commands/search.dart';
+export 'src/logger.dart';
